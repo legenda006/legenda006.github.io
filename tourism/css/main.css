@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+font-family: Roboto;
+src: url(../fonts/Roboto-Regular.ttf);
+
+}
+html, body, main{
+	height: 100%;
+	font-family: Roboto;
+
+}
+.first{
+	height: 100%;
+	background-image: url(../img/img1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.first p{
+	color: #fff
+
+}
+.tourism {
+	width: 100%;
+	text-align: center;
+	font-size: 23px;
+	padding-top: 85px;
+}
+.text-container{
+	width: 40%;
+	margin-top: 15%;
+	margin-left: 15%
+
+}
+
+.first-line{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	opacity: 0.7;
+	line-height: 1;
+}
+
+.second-line{
+	text-transform: uppercase;
+	font-size: 64px;
+	line-height: 1.2;
+	font-weight: bold;
+	letter-spacing: 3.5;
+}
+
+.third-line{
+	font-size: 17px;
+}
+
+.second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+
+}
+.img-container{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+
+}
+img{
+	display: block;
+	max-width: 100%
+	height:auto;
+}
+.img1{
+	width: 52.5%
+
+}
+
+.wrapper{
+	margin-left: 20px;
+
+
+}
+ 
+.img2{
+	margin-bottom: 20px;
+
+}
+.gallery-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.gallery-p{
+	font-size: 18px;
+	width: 70%;
+	letter-spacing: 1px;
+	opacity: 0.7;
+
+}
+
+.gallery-header{
+	font-size: 49px;
+	letter-spacing: 1px;
+	line-height: 1;
+	opacity: 0.75;
+
+}
+
+.last-container{
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/img5.jpg);
+	background-position: center;
+	background-size: cover;
+	flex-direction: column;
+	padding: 0 28%;
+}
+.last-header{
+	color: #fff;
+	border: 2px solid;
+	font-size: 25px;
+	padding: 10px 20px;	
+	margin-bottom: 36px; 
+	opacity: 0.7;
+
+}
+.last-text{
+	color: #fff;
+	line-height: 1.6;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 1px;
+	opacity: 0.5;
+
+}	
+
+
+
